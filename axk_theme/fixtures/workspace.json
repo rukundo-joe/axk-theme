@@ -1,0 +1,119 @@
+[
+ {
+  "doctype": "Workspace",
+  "name": "AXK Home",
+  "title": "AXK Home",
+  "label": "AXK Home",
+  "icon": "home",
+  "module": "AXK Theme",
+  "public": 1,
+  "is_hidden": 0,
+  "for_user": null,
+  "sequence_id": 1.0,
+  "content": "[{\"id\": \"daa3f4c04e\", \"type\": \"paragraph\", \"data\": {\"text\": \"<div style=\\\"display:block;\\\">\\n\\n<div class=\\\"axk-hero-welcome\\\">\\n  <h1>Good <span class=\\\"axk-greeting-time\\\">evening</span>, <span class=\\\"axk-greeting-user\\\">Administrator</span>.</h1>\\n  <p class=\\\"axk-hero-sub\\\">Your <span class=\\\"axk-brand-label\\\">AXK Network</span> is active. <span class=\\\"axk-greeting-date\\\"></span></p>\\n  <div class=\\\"axk-hero-stats\\\">\\n    <svg width=\\\"14\\\" height=\\\"14\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><circle cx=\\\"12\\\" cy=\\\"12\\\" r=\\\"10\\\"/><polyline points=\\\"12 6 12 12 16 14\\\"/></svg>\\n    <span>Welcome to your AXK-themed workspace</span>\\n  </div>\\n</div>\\n\\n<div style=\\\"display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:20px 0 8px;\\\">\\n\\n<div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;\\\">\\n  <div style=\\\"width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--axk-primary-subtle, rgba(22,99,80,0.06));color:var(--axk-primary, #166350);margin-bottom:4px;\\\"><svg width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><path d=\\\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\\\"/><circle cx=\\\"9\\\" cy=\\\"7\\\" r=\\\"4\\\"/><path d=\\\"M23 21v-2a4 4 0 0 0-3-3.87\\\"/><path d=\\\"M16 3.13a4 4 0 0 1 0 7.75\\\"/></svg></div>\\n  <div style=\\\"font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--axk-text-secondary, #4A6B62);\\\">Members</div>\\n  <div style=\\\"font-size:28px;font-weight:700;color:var(--axk-text, #0F1F1A);line-height:1;letter-spacing:-0.02em;font-variant-numeric:tabular-nums;\\\" data-axk-count=\\\"User\\\">\\u2014</div>\\n  <div style=\\\"font-size:12px;color:var(--axk-primary, #166350);\\\">active</div>\\n</div>\\n\\n<div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;\\\">\\n  <div style=\\\"width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--axk-primary-subtle, rgba(22,99,80,0.06));color:var(--axk-primary, #166350);margin-bottom:4px;\\\"><svg width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><path d=\\\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\\\"/></svg></div>\\n  <div style=\\\"font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--axk-text-secondary, #4A6B62);\\\">Roles</div>\\n  <div style=\\\"font-size:28px;font-weight:700;color:var(--axk-text, #0F1F1A);line-height:1;letter-spacing:-0.02em;font-variant-numeric:tabular-nums;\\\" data-axk-count=\\\"Role\\\">\\u2014</div>\\n  <div style=\\\"font-size:12px;color:var(--axk-primary, #166350);\\\">configured</div>\\n</div>\\n\\n<div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;\\\">\\n  <div style=\\\"width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--axk-primary-subtle, rgba(22,99,80,0.06));color:var(--axk-primary, #166350);margin-bottom:4px;\\\"><svg width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><path d=\\\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\\\"/><polyline points=\\\"22,6 12,13 2,6\\\"/></svg></div>\\n  <div style=\\\"font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--axk-text-secondary, #4A6B62);\\\">Email Templates</div>\\n  <div style=\\\"font-size:28px;font-weight:700;color:var(--axk-text, #0F1F1A);line-height:1;letter-spacing:-0.02em;font-variant-numeric:tabular-nums;\\\" data-axk-count=\\\"Email Template\\\">\\u2014</div>\\n  <div style=\\\"font-size:12px;color:var(--axk-primary, #166350);\\\">ready</div>\\n</div>\\n\\n<div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;\\\">\\n  <div style=\\\"width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--axk-primary-subtle, rgba(22,99,80,0.06));color:var(--axk-primary, #166350);margin-bottom:4px;\\\"><svg width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><path d=\\\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\\\"/><path d=\\\"M13.73 21a2 2 0 0 1-3.46 0\\\"/></svg></div>\\n  <div style=\\\"font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--axk-text-secondary, #4A6B62);\\\">Notifications</div>\\n  <div style=\\\"font-size:28px;font-weight:700;color:var(--axk-text, #0F1F1A);line-height:1;letter-spacing:-0.02em;font-variant-numeric:tabular-nums;\\\" data-axk-count=\\\"Notification\\\">\\u2014</div>\\n  <div style=\\\"font-size:12px;color:var(--axk-primary, #166350);\\\">scheduled</div>\\n</div>\\n\\n<div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;\\\">\\n  <div style=\\\"width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--axk-primary-subtle, rgba(22,99,80,0.06));color:var(--axk-primary, #166350);margin-bottom:4px;\\\"><svg width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><circle cx=\\\"12\\\" cy=\\\"12\\\" r=\\\"10\\\"/><polyline points=\\\"12 6 12 12 16 14\\\"/></svg></div>\\n  <div style=\\\"font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--axk-text-secondary, #4A6B62);\\\">Scheduled Jobs</div>\\n  <div style=\\\"font-size:28px;font-weight:700;color:var(--axk-text, #0F1F1A);line-height:1;letter-spacing:-0.02em;font-variant-numeric:tabular-nums;\\\" data-axk-count=\\\"Scheduled Job Type\\\">\\u2014</div>\\n  <div style=\\\"font-size:12px;color:var(--axk-primary, #166350);\\\">running</div>\\n</div>\\n</div>\\n\\n<div style=\\\"display:grid;grid-template-columns:2fr 1fr;gap:12px;margin:16px 0 8px;\\\">\\n  <div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:20px 24px;min-height:220px;\\\">\\n    <div style=\\\"font-size:15px;font-weight:600;color:var(--axk-primary, #166350);\\\">Network activity</div>\\n    <div style=\\\"font-size:12px;color:var(--axk-text-secondary, #4A6B62);margin-top:2px;\\\">Users created \\u00b7 last 14 days</div>\\n    <div style=\\\"margin-top:16px;min-height:160px;border:1px dashed var(--axk-border, #D8EAE5);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--axk-text-secondary, #4A6B62);font-size:12px;\\\">Chart area \\u2014 hook a Frappe Dashboard Chart here</div>\\n  </div>\\n  <div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:20px 24px;min-height:220px;\\\">\\n    <div style=\\\"font-size:15px;font-weight:600;color:var(--axk-primary, #166350);\\\">Role distribution</div>\\n    <div style=\\\"font-size:12px;color:var(--axk-text-secondary, #4A6B62);margin-top:2px;\\\">Active roles</div>\\n    <div style=\\\"margin-top:16px;min-height:160px;border:1px dashed var(--axk-border, #D8EAE5);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--axk-text-secondary, #4A6B62);font-size:12px;\\\">Donut area</div>\\n  </div>\\n</div>\\n\\n</div>\", \"col\": 12}}, {\"id\": \"573b0d86f6\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"7185b9ca5c\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>Quick actions</b></span>\", \"col\": 12}}, {\"id\": \"9529f4f755\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Users\", \"col\": 3}}, {\"id\": \"66a92b213a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Roles\", \"col\": 3}}, {\"id\": \"2cb40949d6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Email Templates\", \"col\": 3}}, {\"id\": \"1c017cfe8b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Notifications\", \"col\": 3}}, {\"id\": \"53613a72ec\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"0652ed6e8b\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>Recent activity</b></span>\", \"col\": 12}}, {\"id\": \"559f082e9c\", \"type\": \"paragraph\", \"data\": {\"text\": \"<div style=\\\"background:var(--axk-surface, #FFFFFF);border:1px solid var(--axk-border, #D8EAE5);border-radius:12px;padding:18px 22px;margin:4px 0 12px;\\\">\\n  <div style=\\\"display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:12px;\\\">\\n    <div>\\n      <div style=\\\"font-size:15px;font-weight:600;color:var(--axk-text, #0F1F1A);\\\">Recent Users</div>\\n      <div style=\\\"font-size:12px;color:var(--axk-text-secondary, #4A6B62);margin-top:2px;\\\">Latest platform members \\u00b7 last 5</div>\\n    </div>\\n    <a style=\\\"font-size:12px;color:var(--axk-primary, #166350);text-decoration:none;font-weight:500;\\\" href=\\\"/app/user\\\">View all \\u2192</a>\\n  </div>\\n  <div data-axk-table=\\\"User\\\" data-axk-columns=\\\"full_name,email,creation\\\" style=\\\"font-size:13px;\\\">\\n    <span style=\\\"display:block;padding:14px;font-size:12px;color:var(--axk-text-secondary, #4A6B62);text-align:center;\\\">Loading\\u2026</span>\\n  </div>\\n</div>\", \"col\": 12}}, {\"id\": \"1ac97899bc\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"87fdea5583\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>Platform areas</b></span>\", \"col\": 12}}, {\"id\": \"53cb80a676\", \"type\": \"card\", \"data\": {\"card_name\": \"Access & Identity\", \"col\": 4}}, {\"id\": \"bb35bd1fe1\", \"type\": \"card\", \"data\": {\"card_name\": \"Communication\", \"col\": 4}}, {\"id\": \"1ec5f924ce\", \"type\": \"card\", \"data\": {\"card_name\": \"System\", \"col\": 4}}]",
+  "shortcuts": [
+   {
+    "shortcut_name": "Users",
+    "label": "Users",
+    "link_to": "User",
+    "type": "DocType",
+    "color": "Green"
+   },
+   {
+    "shortcut_name": "Roles",
+    "label": "Roles",
+    "link_to": "Role",
+    "type": "DocType",
+    "color": "Green"
+   },
+   {
+    "shortcut_name": "Email Templates",
+    "label": "Email Templates",
+    "link_to": "Email Template",
+    "type": "DocType",
+    "color": "Green"
+   },
+   {
+    "shortcut_name": "Notifications",
+    "label": "Notifications",
+    "link_to": "Notification",
+    "type": "DocType",
+    "color": "Green"
+   }
+  ],
+  "links": [
+   {
+    "type": "Card Break",
+    "label": "Access & Identity",
+    "link_count": 3
+   },
+   {
+    "type": "Link",
+    "label": "User",
+    "link_to": "User",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Link",
+    "label": "Role",
+    "link_to": "Role",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Link",
+    "label": "Role Profile",
+    "link_to": "Role Profile",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Card Break",
+    "label": "Communication",
+    "link_count": 3
+   },
+   {
+    "type": "Link",
+    "label": "Email Template",
+    "link_to": "Email Template",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Link",
+    "label": "Email Queue",
+    "link_to": "Email Queue",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Link",
+    "label": "Notification",
+    "link_to": "Notification",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Card Break",
+    "label": "System",
+    "link_count": 3
+   },
+   {
+    "type": "Link",
+    "label": "System Settings",
+    "link_to": "System Settings",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Link",
+    "label": "Error Log",
+    "link_to": "Error Log",
+    "link_type": "DocType"
+   },
+   {
+    "type": "Link",
+    "label": "Scheduled Job Log",
+    "link_to": "Scheduled Job Log",
+    "link_type": "DocType"
+   }
+  ],
+  "number_cards": [],
+  "charts": [],
+  "custom_blocks": []
+ }
+]

@@ -1,0 +1,159 @@
+{
+ "charts": [],
+ "content": "[{\"type\": \"custom_block\", \"data\": {\"custom_block_name\": \"axk-ws-buyer-marketplace\", \"col\": 12}}]",
+ "creation": "2026-04-20 06:24:30.051809",
+ "custom_blocks": [
+  {
+   "custom_block_name": "axk-ws-buyer-marketplace",
+   "label": "axk-ws-buyer-marketplace"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-shopping-bag",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Buyer Marketplace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Marketplace",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lots",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Orders",
+   "link_count": 0,
+   "link_to": "AXK Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Escrows",
+   "link_count": 0,
+   "link_to": "Escrow Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipments",
+   "link_count": 0,
+   "link_to": "Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Harvest",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Forecasts",
+   "link_count": 0,
+   "link_to": "Pre-Harvest Forecast",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Orders",
+   "link_count": 0,
+   "link_to": "Pre-Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-20 12:11:47.464286",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Buyer Marketplace",
+ "number_cards": [
+  {
+   "label": "Active Seasons",
+   "number_card_name": "Active Season Plans"
+  },
+  {
+   "label": "Pre-Orders",
+   "number_card_name": "Pre-Orders Active"
+  },
+  {
+   "label": "Forecasted Yield (kg)",
+   "number_card_name": "Forecasted Yield This Season kg"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Buyer"
+  },
+  {
+   "role": "Buyer"
+  },
+  {
+   "role": "Finance Officer"
+  },
+  {
+   "role": "AXK Bank"
+  }
+ ],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Browse Forecasts",
+   "link_to": "Pre-Harvest Forecast",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Place Pre-Order",
+   "link_to": "Pre-Order",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "My Pre-Orders",
+   "link_to": "Pre-Order",
+   "type": "DocType"
+  }
+ ],
+ "title": "Buyer Marketplace"
+}

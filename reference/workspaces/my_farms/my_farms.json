@@ -1,0 +1,105 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"0d24ba1cbe\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">My Farms</span>\", \"col\": 12}}, {\"id\": \"05a348e2af\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Farm Plots\", \"col\": 4}}, {\"id\": \"f7c1effbd6\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Lots Submitted This Month\", \"col\": 4}}, {\"id\": \"99b8308439\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Produce kg\", \"col\": 4}}, {\"id\": \"7a146c9936\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"42cc012cab\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Register New Farm Plot\", \"col\": 3}}, {\"id\": \"314e894cd9\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Farm Plots\", \"col\": 3}}, {\"id\": \"b2486ab307\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Update GPS Boundaries\", \"col\": 3}}, {\"id\": \"47401ee450\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Documents\", \"col\": 3}}, {\"id\": \"9e1b8bf2e9\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"5b1e1e212f\", \"type\": \"card\", \"data\": {\"card_name\": \"My Land\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.254536",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-tractor",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "My Farms",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "My Land",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm Plots",
+   "link_count": 0,
+   "link_to": "Farm Plot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Season Plans",
+   "link_count": 0,
+   "link_to": "Season Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.592352",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "My Farms",
+ "number_cards": [
+  {
+   "label": "Farm Plots",
+   "number_card_name": "Farm Plots"
+  },
+  {
+   "label": "Lots This Month",
+   "number_card_name": "Lots Submitted This Month"
+  },
+  {
+   "label": "Total Produce (kg)",
+   "number_card_name": "Total Produce kg"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Farmer"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "Farmer"
+  },
+  {
+   "role": "Cooperative Admin"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Register New Plot",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "My Farm Plots",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Update GPS Boundaries",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  }
+ ],
+ "title": "My Farms"
+}

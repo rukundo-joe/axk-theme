@@ -1,0 +1,138 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"911de071d7\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Exporter Portal</span>\", \"col\": 12}}, {\"id\": \"57dd912c39\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"4882b5dfa8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"e7bf8dd200\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"6485b0a4de\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Pending Confirmations\", \"col\": 3}}, {\"id\": \"eb60fa0705\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Lots\", \"col\": 3}}, {\"id\": \"ebb60075c2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Transport Requests\", \"col\": 3}}, {\"id\": \"65fd925d92\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Finance Profile\", \"col\": 3}}, {\"id\": \"ba43d8dc85\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"3786152048\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 08:22:29.389485",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "lucide-globe",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Exporter Portal",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "AXK Network",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Verification Event",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transport Request",
+   "link_count": 0,
+   "link_to": "Transport Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Finance Eligibility Profile",
+   "link_count": 0,
+   "link_to": "Finance Eligibility Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EUDR Compliance Package",
+   "link_count": 0,
+   "link_to": "EUDR Compliance Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:20:06.009353",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Exporter Portal",
+ "number_cards": [
+  {
+   "label": "Pending",
+   "number_card_name": "Pending Confirmations"
+  },
+  {
+   "label": "Verified",
+   "number_card_name": "Verified Lots"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Exporter"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Exporter"
+  }
+ ],
+ "sequence_id": 20.0,
+ "shortcuts": [
+  {
+   "color": "#FFBF00",
+   "doc_view": "List",
+   "label": "Pending Confirmations",
+   "link_to": "Verification Event",
+   "type": "DocType"
+  },
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "My Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Transport Requests",
+   "link_to": "Transport Request",
+   "type": "DocType"
+  },
+  {
+   "color": "#0C3424",
+   "doc_view": "List",
+   "label": "Finance Profile",
+   "link_to": "Finance Eligibility Profile",
+   "type": "DocType"
+  }
+ ],
+ "title": "Exporter Portal"
+}

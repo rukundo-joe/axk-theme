@@ -1,0 +1,121 @@
+{
+ "charts": [
+  {
+   "chart_name": "Harvest Records by Month",
+   "label": "Harvests by Month"
+  }
+ ],
+ "content": "[{\"id\": \"b76d08483c\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">My Harvests</span>\", \"col\": 12}}, {\"id\": \"04413cbc90\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Harvests This Season\", \"col\": 4}}, {\"id\": \"cbecc36420\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Weight Recorded kg\", \"col\": 4}}, {\"id\": \"434ec869c2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Aggregated into Lots\", \"col\": 4}}, {\"id\": \"de24c7563b\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"b1590e7dc9\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Record a Harvest\", \"col\": 3}}, {\"id\": \"73e9f8e13f\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Harvest Records\", \"col\": 3}}, {\"id\": \"610529cecb\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Pending Aggregation\", \"col\": 3}}, {\"id\": \"87b656616c\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Finance Profile\", \"col\": 3}}, {\"id\": \"f6119f93cf\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"4bf9e397a4\", \"type\": \"card\", \"data\": {\"card_name\": \"Harvest Records\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.455973",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-wheat",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "My Harvests",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "Harvest Records",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Harvest Record",
+   "link_count": 0,
+   "link_to": "Harvest Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.877970",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "My Harvests",
+ "number_cards": [
+  {
+   "label": "Harvests This Season",
+   "number_card_name": "Harvests This Season"
+  },
+  {
+   "label": "Total Weight Recorded kg",
+   "number_card_name": "Total Weight Recorded kg"
+  },
+  {
+   "label": "Aggregated into Lots",
+   "number_card_name": "Aggregated into Lots"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "AXK Farmer"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Farmer"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "New",
+   "label": "Record a Harvest",
+   "link_to": "Harvest Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "My Harvest Records",
+   "link_to": "Harvest Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Pending Aggregation",
+   "link_to": "Harvest Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "My Finance Profile",
+   "link_to": "Finance Eligibility Profile",
+   "type": "DocType"
+  }
+ ],
+ "title": "My Harvests"
+}

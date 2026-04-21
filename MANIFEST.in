@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.toml
+include *.txt
+recursive-include axk_theme *.css
+recursive-include axk_theme *.csv
+recursive-include axk_theme *.html
+recursive-include axk_theme *.ico
+recursive-include axk_theme *.js
+recursive-include axk_theme *.json
+recursive-include axk_theme *.md
+recursive-include axk_theme *.png
+recursive-include axk_theme *.py
+recursive-include axk_theme *.svg
+recursive-include axk_theme *.txt

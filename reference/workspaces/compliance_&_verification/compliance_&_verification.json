@@ -1,0 +1,124 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"816bf2f7eb\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Compliance & Verification</span>\", \"col\": 12}}, {\"id\": \"1638c548a0\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"c300da84eb\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Anomalies Flagged\", \"col\": 4}}, {\"id\": \"3fb6641c0b\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Season Plans\", \"col\": 4}}, {\"id\": \"8bb622ec21\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"14c1002b91\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My EUDR Packages\", \"col\": 3}}, {\"id\": \"c0ff96f96b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Generate New Package\", \"col\": 3}}, {\"id\": \"f705953c7a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"XRPL Verification Log\", \"col\": 3}}, {\"id\": \"8678f5baad\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Public Verification Page\", \"col\": 3}}, {\"id\": \"327f2abdb2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Custody Chain\", \"col\": 3}}, {\"id\": \"f941ef0e8b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"ANHUR Verification Results\", \"col\": 3}}, {\"id\": \"bf9b0ec4d2\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"35b8a620e1\", \"type\": \"card\", \"data\": {\"card_name\": \"Verification & Compliance\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.773200",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-badge-check",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Compliance & Verification",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Compliance",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EUDR Packages",
+   "link_count": 0,
+   "link_to": "EUDR Compliance Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Events",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Results",
+   "link_count": 0,
+   "link_to": "ANHUR Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Custody Steps",
+   "link_count": 0,
+   "link_to": "Lot Custody Step",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:57:28.686226",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Compliance & Verification",
+ "number_cards": [
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  },
+  {
+   "label": "Anomalies",
+   "number_card_name": "Anomalies Flagged"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Exporter"
+  },
+  {
+   "role": "Exporter"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Authority"
+  }
+ ],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "EUDR Packages",
+   "link_to": "EUDR Compliance Package",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Verification Log",
+   "link_to": "Verification Event",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Custody Chain",
+   "link_to": "Lot Custody Step",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "AI Results",
+   "link_to": "ANHUR Result",
+   "type": "DocType"
+  }
+ ],
+ "title": "Compliance & Verification"
+}

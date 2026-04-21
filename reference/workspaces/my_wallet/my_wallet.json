@@ -1,0 +1,171 @@
+{
+ "charts": [
+  {
+   "chart_name": "AXKT Mints by Month",
+   "label": "AXKT Mints"
+  }
+ ],
+ "content": "[{\"id\": \"9213fd569b\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">My Wallet</span>\", \"col\": 12}}, {\"id\": \"5801c2fcc9\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"AXKT Transactions\", \"col\": 4}}, {\"id\": \"dfdfbe0d95\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Insurance\", \"col\": 4}}, {\"id\": \"b1746a535b\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Escrows\", \"col\": 4}}, {\"id\": \"f0587c2689\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"e8e92675f4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My AXKT Balance\", \"col\": 3}}, {\"id\": \"e3d5298ac5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Token Transaction History\", \"col\": 3}}, {\"id\": \"b27bdda3cb\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Rewards Earned\", \"col\": 3}}, {\"id\": \"4f2e1ef66c\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Subscriptions\", \"col\": 3}}, {\"id\": \"be97258aff\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Referral Rewards\", \"col\": 3}}, {\"id\": \"4be40ea386\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"78fa7dfd6b\", \"type\": \"card\", \"data\": {\"card_name\": \"Wallet & Subscriptions\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.730467",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-wallet",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "My Wallet",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "Wallet & Subscriptions",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXKT Transaction",
+   "link_count": 0,
+   "link_to": "AXKT Transaction",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service Subscription",
+   "link_count": 0,
+   "link_to": "Service Subscription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXK Package",
+   "link_count": 0,
+   "link_to": "AXK Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.760201",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "My Wallet",
+ "number_cards": [
+  {
+   "label": "AXKT Transactions",
+   "number_card_name": "AXKT Transactions"
+  },
+  {
+   "label": "Active Insurance",
+   "number_card_name": "Active Insurance"
+  },
+  {
+   "label": "Active Escrows",
+   "number_card_name": "Active Escrows"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Finance Officer"
+  },
+  {
+   "role": "AXK Exporter"
+  },
+  {
+   "role": "AXK Logistics"
+  },
+  {
+   "role": "AXK Bank"
+  },
+  {
+   "role": "AXK Buyer"
+  },
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "Farmer"
+  },
+  {
+   "role": "AXK Authority"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Farmer"
+  },
+  {
+   "role": "Logistics Operator"
+  },
+  {
+   "role": "Exporter"
+  },
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "Buyer"
+  },
+  {
+   "role": "Insurance Agent"
+  },
+  {
+   "role": "AXK Inspector"
+  }
+ ],
+ "sequence_id": 17.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "My AXKT Balance",
+   "link_to": "AXKT Transaction",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "Token Transaction History",
+   "link_to": "AXKT Transaction",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Rewards Earned",
+   "link_to": "AXKT Transaction",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "My Subscriptions",
+   "link_to": "Service Subscription",
+   "type": "DocType"
+  },
+  {
+   "color": "#0C3424",
+   "doc_view": "List",
+   "label": "Referral Rewards",
+   "link_to": "AXKT Transaction",
+   "type": "DocType"
+  }
+ ],
+ "title": "My Wallet"
+}

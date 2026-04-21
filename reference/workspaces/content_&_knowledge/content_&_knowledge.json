@@ -1,0 +1,156 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"27f71425b9\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Content & Knowledge</span>\", \"col\": 12}}, {\"id\": \"6569565d70\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Help Articles\", \"col\": 3}}, {\"id\": \"06bb0643d3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Help Article\", \"col\": 3}}, {\"id\": \"2358ebf849\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Blog Posts\", \"col\": 3}}, {\"id\": \"0961c19ad1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Blog Post\", \"col\": 3}}, {\"id\": \"9d6f728225\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Help Categories\", \"col\": 3}}, {\"id\": \"dacb7cc351\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Blog Categories\", \"col\": 3}}, {\"id\": \"4b0aa81460\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"f1e630534b\", \"type\": \"card\", \"data\": {\"card_name\": \"Knowledge Base\", \"col\": 4}}, {\"id\": \"c4ec8b47e8\", \"type\": \"card\", \"data\": {\"card_name\": \"Blog\", \"col\": 4}}, {\"id\": \"500420250e\", \"type\": \"card\", \"data\": {\"card_name\": \"Public Pages\", \"col\": 4}}]",
+ "creation": "2026-04-02 06:28:13.349111",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-book-open",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Content & Knowledge",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Knowledge Base",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Help Articles",
+   "link_count": 0,
+   "link_to": "Help Article",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Help Categories",
+   "link_count": 0,
+   "link_to": "Help Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blog",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blog Posts",
+   "link_count": 0,
+   "link_to": "Blog Post",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blog Categories",
+   "link_count": 0,
+   "link_to": "Blog Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bloggers",
+   "link_count": 0,
+   "link_to": "Blogger",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Public Pages",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Web Pages",
+   "link_count": 0,
+   "link_to": "Web Page",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 07:17:11.324531",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Content & Knowledge",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 26.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Help Articles",
+   "link_to": "Help Article",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "New Help Article",
+   "link_to": "Help Article",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Blog Posts",
+   "link_to": "Blog Post",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "New Blog Post",
+   "link_to": "Blog Post",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Help Categories",
+   "link_to": "Help Category",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Blog Categories",
+   "link_to": "Blog Category",
+   "type": "DocType"
+  }
+ ],
+ "title": "Content & Knowledge"
+}

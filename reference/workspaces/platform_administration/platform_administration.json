@@ -1,0 +1,264 @@
+{
+ "charts": [
+  {
+   "chart_name": "AXKT Mints by Month",
+   "label": "AXKT Mints"
+  },
+  {
+   "chart_name": "Integration Logs by Day",
+   "label": "API Activity"
+  }
+ ],
+ "content": "[{\"id\": \"af55280197\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Platform Administration</span>\", \"col\": 12}}, {\"id\": \"d285fef95c\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"AXKT Transactions\", \"col\": 4}}, {\"id\": \"598ad3345b\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Insurance\", \"col\": 4}}, {\"id\": \"668fc8e041\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Exporter Profiles\", \"col\": 4}}, {\"id\": \"e2ed401a48\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"333f3ee55d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Onboard New Institution\", \"col\": 3}}, {\"id\": \"9d04dfb038\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Companies\", \"col\": 3}}, {\"id\": \"d21c06556b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Subscription Management\", \"col\": 3}}, {\"id\": \"3929389b1f\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Manage Packages\", \"col\": 3}}, {\"id\": \"7c39d3a184\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"AXKT Transactions\", \"col\": 3}}, {\"id\": \"17291c04a2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Platform Configuration\", \"col\": 3}}, {\"id\": \"cbd08e864e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Feature Flags\", \"col\": 3}}, {\"id\": \"c89ca791cb\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Integration Hub\", \"col\": 3}}, {\"id\": \"4eb7b53a80\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Users\", \"col\": 3}}, {\"id\": \"673c0dfaab\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"User Permissions\", \"col\": 3}}, {\"id\": \"594b1503db\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Notification Log\", \"col\": 3}}, {\"id\": \"9fb6eb9a73\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"05e6e50a98\", \"type\": \"card\", \"data\": {\"card_name\": \"Platform Management\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.890182",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-settings",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Platform Administration",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "Platform Management",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Company",
+   "link_count": 0,
+   "link_to": "Company",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service Subscription",
+   "link_count": 0,
+   "link_to": "Service Subscription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXK Package",
+   "link_count": 0,
+   "link_to": "AXK Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXK Feature Flag",
+   "link_count": 0,
+   "link_to": "AXK Feature Flag",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Platform Configuration",
+   "link_count": 0,
+   "link_to": "Platform Configuration",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXKT Transaction",
+   "link_count": 0,
+   "link_to": "AXKT Transaction",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integration Service",
+   "link_count": 0,
+   "link_to": "Integration Service",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integration Log",
+   "link_count": 0,
+   "link_to": "Integration Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User Permission",
+   "link_count": 0,
+   "link_to": "User Permission",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.201487",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Platform Administration",
+ "number_cards": [
+  {
+   "label": "Active Subscriptions",
+   "number_card_name": "Active Subscriptions"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 25.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "New",
+   "label": "Onboard New Institution",
+   "link_to": "Company",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "All Companies",
+   "link_to": "Company",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Subscription Management",
+   "link_to": "Service Subscription",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "Manage Packages",
+   "link_to": "AXK Package",
+   "type": "DocType"
+  },
+  {
+   "color": "#0C3424",
+   "doc_view": "List",
+   "label": "AXKT Transactions",
+   "link_to": "AXKT Transaction",
+   "type": "DocType"
+  },
+  {
+   "color": "#1E7060",
+   "doc_view": "List",
+   "label": "Platform Configuration",
+   "link_to": "Platform Configuration",
+   "type": "DocType"
+  },
+  {
+   "color": "#2B705F",
+   "doc_view": "List",
+   "label": "Feature Flags",
+   "link_to": "AXK Feature Flag",
+   "type": "DocType"
+  },
+  {
+   "color": "#4A6B62",
+   "doc_view": "List",
+   "label": "Integration Hub",
+   "link_to": "Integration Service",
+   "type": "DocType"
+  },
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "All Users",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "User Permissions",
+   "link_to": "User Permission",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Notification Log",
+   "link_to": "Notification Log",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Email Queue",
+   "link_to": "Email Queue",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Email Templates",
+   "link_to": "Email Template",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Email Accounts",
+   "link_to": "Email Account",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Notifications",
+   "link_to": "Notification",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Broadcast Email",
+   "link_to": "AXK Broadcast",
+   "type": "DocType"
+  }
+ ],
+ "title": "Platform Administration"
+}

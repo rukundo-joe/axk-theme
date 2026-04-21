@@ -1,0 +1,110 @@
+{% extends "templates/web.html" %}
+
+{% set title = "Terms of Service — AXK Network" %}
+
+{% block head_include %}
+<meta name="description" content="AXK Network Terms of Service. Read the terms governing your use of the AXK Network commodity trade platform.">
+{% endblock %}
+
+{% block header %}{% endblock %}
+
+{% block page_content %}
+<div class="axk-pg-root">
+	<div class="axk-pg-container">
+		<div class="axk-pg-shell axk-pg-full">
+			<div class="axk-pg-left">
+				<div class="axk-prose">
+					<h1>{{ _("Terms of Service") }}</h1>
+					<p class="axk-prose-subtitle">{{ _("Last updated: March 2025") }}</p>
+
+					<h2 id="acceptance">1. {{ _("Acceptance of Terms") }}</h2>
+					<p>By accessing or using the AXK Network platform ("Platform"), you agree to be bound by these Terms of Service ("Terms"). The Platform is operated by Afrikabal Ltd., registered in the Republic of Rwanda. If you do not agree to these Terms, you may not access or use the Platform.</p>
+					<p>These Terms apply to all users of the Platform, including cooperatives, farmers, quality inspectors, exporters, buyers, logistics operators, finance officers, and insurance agents.</p>
+
+					<h2 id="platform">2. {{ _("Platform Description") }}</h2>
+					<p>AXK Network is a commodity trade verification and management platform. It provides tools and infrastructure for:</p>
+					<ul>
+						<li><strong>Supply chain traceability</strong> — tracking commodities from farm to final buyer with Lot custody chains and GPS-verified harvest records.</li>
+						<li><strong>Quality verification</strong> — independent inspection records with immutable timestamps and grading data.</li>
+						<li><strong>Escrow-secured transactions</strong> — buyer funds held in escrow until delivery and quality conditions are met.</li>
+						<li><strong>Logistics coordination</strong> — shipment tracking, transport bidding, and corridor-based compliance management.</li>
+						<li><strong>Compliance documentation</strong> — automated EUDR compliance packages and blockchain-anchored proof records.</li>
+					</ul>
+					<p>AXK Network acts as an <strong>infrastructure provider</strong>. We are not a party to, and do not guarantee, any transaction between users.</p>
+
+					<h2 id="accounts">3. {{ _("User Accounts") }}</h2>
+					<p>User accounts are created by authorized organization administrators. You are responsible for:</p>
+					<ul>
+						<li>Maintaining the confidentiality of your login credentials.</li>
+						<li>All activity that occurs under your account.</li>
+						<li>Immediately notifying your administrator of any unauthorized access.</li>
+					</ul>
+					<p>Sharing account credentials with unauthorized persons is strictly prohibited and may result in account suspension.</p>
+
+					<h2 id="data-accuracy">4. {{ _("Data Accuracy & Integrity") }}</h2>
+					<p>Users are responsible for the accuracy and completeness of all data entered into the Platform, including but not limited to:</p>
+					<ul>
+						<li>Harvest records and yield measurements</li>
+						<li>Quality inspection results and grading</li>
+						<li>Shipment details and GPS coordinates</li>
+						<li>Financial information and payment terms</li>
+					</ul>
+					<p><strong>Deliberate falsification</strong> of records — including quality grades, weight measurements, origin data, or compliance documentation — constitutes fraud and is grounds for immediate account termination, removal from the network, and potential legal action.</p>
+
+					<h2 id="transactions">5. {{ _("Transaction Terms") }}</h2>
+					<p>All trade orders executed through the Platform are binding agreements between the transacting parties. Key terms:</p>
+					<ul>
+						<li><strong>Escrow</strong>: Funds deposited in escrow are governed by the specific Trade Order agreement. Release conditions (delivery confirmation, quality verification) are defined at order creation.</li>
+						<li><strong>Disputes</strong>: Transaction disputes are initially resolved through the Platform's dispute resolution process. If unresolved, disputes follow the arbitration process defined in Section 10.</li>
+						<li><strong>Fees</strong>: Platform usage fees, if applicable, are defined in your Service Subscription agreement and are non-refundable unless otherwise stated.</li>
+					</ul>
+
+					<h2 id="ip">6. {{ _("Intellectual Property") }}</h2>
+					<p>The AXK Network platform, its source code, brand, design elements, and all related materials are the exclusive property of Afrikabal Ltd. Users retain full ownership of their data. By using the Platform, you grant AXK Network a limited license to process your data as necessary to provide the service.</p>
+
+					<h2 id="sla">7. {{ _("Service Level") }}</h2>
+					<p>AXK Network targets <strong>99.9% uptime</strong> for the Platform. Scheduled maintenance will be communicated at least 48 hours in advance via email notification. We are not liable for service interruptions caused by force majeure events, third-party infrastructure failures, or circumstances beyond our reasonable control.</p>
+
+					<h2 id="liability">8. {{ _("Limitation of Liability") }}</h2>
+					<p>AXK Network provides infrastructure for trade facilitation. To the maximum extent permitted by applicable law:</p>
+					<ul>
+						<li>We are <strong>not liable</strong> for the quality, grade, or condition of any commodity traded through the Platform.</li>
+						<li>We are <strong>not liable</strong> for delivery outcomes, shipping delays, or logistics failures between trading parties.</li>
+						<li>We are <strong>not liable</strong> for disputes, defaults, or non-performance by any user of the Platform.</li>
+						<li>Our total liability to any user shall not exceed the Platform fees paid by that user in the preceding 12 months.</li>
+					</ul>
+
+					<h2 id="termination">9. {{ _("Termination") }}</h2>
+					<p>Either party may terminate Platform access with <strong>30 days written notice</strong>. Upon termination:</p>
+					<ul>
+						<li>All outstanding escrow obligations must be settled before account closure.</li>
+						<li>Active Trade Orders must either be completed or mutually cancelled.</li>
+						<li>Your data will be retained for 90 days post-termination, after which it will be deleted (except where retention is legally required).</li>
+						<li>AXK Network may terminate accounts immediately for violations of these Terms, fraud, or illegal activity.</li>
+					</ul>
+
+					<h2 id="governing-law">10. {{ _("Governing Law & Dispute Resolution") }}</h2>
+					<p>These Terms are governed by the laws of the Republic of Rwanda. Any disputes arising from or related to these Terms or the use of the Platform shall be resolved through:</p>
+					<ul>
+						<li><strong>Step 1</strong>: Good-faith negotiation between the parties (30-day period).</li>
+						<li><strong>Step 2</strong>: Mediation administered by the Kigali International Arbitration Centre.</li>
+						<li><strong>Step 3</strong>: Binding arbitration in Kigali, Rwanda, conducted in English.</li>
+					</ul>
+
+					<h2 id="changes">11. {{ _("Changes to These Terms") }}</h2>
+					<p>We may update these Terms from time to time. Material changes will be communicated at least 30 days in advance via email and Platform notification. Continued use of the Platform after the effective date constitutes acceptance of the updated Terms.</p>
+
+					<h2 id="contact">12. {{ _("Contact") }}</h2>
+					<p>For questions about these Terms, contact us:</p>
+					<ul>
+						<li><strong>Email</strong>: <a href="mailto:legal@axk.org">legal@axk.org</a></li>
+						<li><strong>Address</strong>: Afrikabal Ltd., Kigali, Rwanda</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<p class="axk-pg-legal"><a href="/privacy">{{ _("Privacy Policy") }}</a> · <a href="/faq">{{ _("FAQ") }}</a> · <a href="/contact">{{ _("Contact Us") }}</a></p>
+	</div>
+</div>
+{% endblock %}

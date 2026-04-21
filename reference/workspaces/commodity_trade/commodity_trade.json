@@ -1,0 +1,165 @@
+{
+ "charts": [
+  {
+   "chart_name": "Lots by Month",
+   "label": "Lots by Month"
+  }
+ ],
+ "content": "[{\"id\": \"01834b08bb\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Commodity Trade</span>\", \"col\": 12}}, {\"id\": \"e35b9aade2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"0ab6d0b3bc\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"cb94b307a9\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Settled Orders\", \"col\": 4}}, {\"id\": \"39ffeb1b39\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"e1d09d070e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Submit a New Lot\", \"col\": 3}}, {\"id\": \"be7c5ffe53\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Lots\", \"col\": 3}}, {\"id\": \"561900f89d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Lot Status Tracker\", \"col\": 3}}, {\"id\": \"bbdb0d3be6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Inspection Queue\", \"col\": 3}}, {\"id\": \"6dfc427ea4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My EUDR Packages\", \"col\": 3}}, {\"id\": \"ebe554ee36\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Custody Chain\", \"col\": 3}}, {\"id\": \"c46dc34676\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"656957105c\", \"type\": \"card\", \"data\": {\"card_name\": \"Trade & Compliance\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.661264",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-package",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Commodity Trade",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "Trade & Compliance",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EUDR Compliance Package",
+   "link_count": 0,
+   "link_to": "EUDR Compliance Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot Custody Step",
+   "link_count": 0,
+   "link_to": "Lot Custody Step",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ANHUR Result",
+   "link_count": 0,
+   "link_to": "ANHUR Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.550905",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Commodity Trade",
+ "number_cards": [
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  },
+  {
+   "label": "Pending Confirmations",
+   "number_card_name": "Pending Confirmations"
+  },
+  {
+   "label": "Settled Orders",
+   "number_card_name": "Settled Orders"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "Exporter"
+  },
+  {
+   "role": "AXK Exporter"
+  }
+ ],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "New",
+   "label": "Submit a New Lot",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "My Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Lot Status Tracker",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "Inspection Queue",
+   "link_to": "Quality Inspection",
+   "type": "DocType"
+  },
+  {
+   "color": "#0C3424",
+   "doc_view": "List",
+   "label": "My EUDR Packages",
+   "link_to": "EUDR Compliance Package",
+   "type": "DocType"
+  },
+  {
+   "color": "#1E7060",
+   "doc_view": "List",
+   "label": "Custody Chain",
+   "link_to": "Lot Custody Step",
+   "type": "DocType"
+  }
+ ],
+ "title": "Commodity Trade"
+}

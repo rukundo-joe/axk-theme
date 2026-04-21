@@ -1,0 +1,95 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"95c3c13d74\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Shipments & Logistics</span>\", \"col\": 12}}, {\"id\": \"9d02d44ee5\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"In Transit\", \"col\": 4}}, {\"id\": \"f2c276613a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Transport Jobs\", \"col\": 4}}, {\"id\": \"ed89b8c73e\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Escrows\", \"col\": 4}}, {\"id\": \"a404794b6d\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"7a49a888a9\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Create Transport Request\", \"col\": 3}}, {\"id\": \"bc28a27e58\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Active Shipments\", \"col\": 3}}, {\"id\": \"2b44d32070\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Delivery Confirmations\", \"col\": 3}}, {\"id\": \"01f43c6217\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Live Map View\", \"col\": 3}}, {\"id\": \"c17508402a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Shipment History\", \"col\": 3}}, {\"id\": \"e216cf05f0\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"2b9f8f6629\", \"type\": \"card\", \"data\": {\"card_name\": \"Logistics\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.387066",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-truck",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Shipments & Logistics",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Logistics",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transport Requests",
+   "link_count": 0,
+   "link_to": "Transport Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipments",
+   "link_count": 0,
+   "link_to": "Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.398876",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Shipments & Logistics",
+ "number_cards": [
+  {
+   "label": "In Transit",
+   "number_card_name": "In Transit"
+  },
+  {
+   "label": "Open Jobs",
+   "number_card_name": "Open Transport Jobs"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Logistics"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Logistics Operator"
+  }
+ ],
+ "sequence_id": 15.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Create Transport Request",
+   "link_to": "Transport Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Active Shipments",
+   "link_to": "Transport Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Delivery Confirmations",
+   "link_to": "Transport Request",
+   "type": "DocType"
+  }
+ ],
+ "title": "Shipments & Logistics"
+}

@@ -1,0 +1,105 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"03b12cf614\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Logistics Marketplace</span>\",\"col\":12}},{\"id\":\"171793f4a8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Transport Jobs\",\"col\":4}},{\"id\":\"d50aa5b020\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"In Transit\",\"col\":4}},{\"id\":\"5739fb78b0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"fa60a144dd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Available Loads\",\"col\":3}},{\"id\":\"d3efdb587c\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My Bids\",\"col\":3}},{\"id\":\"2f238f9eed\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Active Shipments\",\"col\":3}},{\"id\":\"6e3f1eb0e8\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"737e1b5480\",\"type\":\"card\",\"data\":{\"card_name\":\"AXK Network\",\"col\":4}}]",
+ "creation": "2026-03-28 08:22:29.516173",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-map-pin",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Logistics Marketplace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Logistics",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transport Requests",
+   "link_count": 0,
+   "link_to": "Transport Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bids",
+   "link_count": 0,
+   "link_to": "Transport Bid",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipments",
+   "link_count": 0,
+   "link_to": "Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.462271",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Logistics Marketplace",
+ "number_cards": [
+  {
+   "label": "Open Jobs",
+   "number_card_name": "Open Transport Jobs"
+  },
+  {
+   "label": "In Transit",
+   "number_card_name": "In Transit"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Logistics Operator"
+  },
+  {
+   "role": "AXK Logistics"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 16.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Available Loads",
+   "link_to": "Transport Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "My Bids",
+   "link_to": "Transport Bid",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Active Shipments",
+   "link_to": "Shipment",
+   "type": "DocType"
+  }
+ ],
+ "title": "Logistics Marketplace"
+}

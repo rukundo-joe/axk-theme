@@ -1,0 +1,125 @@
+{
+ "charts": [
+  {
+   "chart_name": "Harvest Records by Month",
+   "label": "Harvests by Month"
+  }
+ ],
+ "content": "[{\"id\": \"1db3ba473f\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Member Harvests</span>\", \"col\": 12}}, {\"id\": \"9aaea631e3\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Harvests\", \"col\": 4}}, {\"id\": \"6802417571\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Ready to Aggregate\", \"col\": 4}}, {\"id\": \"abf124be46\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Aggregated This Month\", \"col\": 4}}, {\"id\": \"3c140da02d\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"797bfdfbe5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Member Harvests\", \"col\": 3}}, {\"id\": \"344f9b5175\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Aggregate into Lot\", \"col\": 3}}, {\"id\": \"f094213bd8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Aggregation History\", \"col\": 3}}, {\"id\": \"1b834907e8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Members\", \"col\": 3}}, {\"id\": \"005b0e3e3d\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"a9182633cc\", \"type\": \"card\", \"data\": {\"card_name\": \"Cooperative Harvest Management\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.555410",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-users",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Member Harvests",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "Cooperative Harvest Management",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Harvest Record",
+   "link_count": 0,
+   "link_to": "Harvest Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Finance Eligibility Profile",
+   "link_count": 0,
+   "link_to": "Finance Eligibility Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.971284",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Member Harvests",
+ "number_cards": [
+  {
+   "label": "Pending Harvests",
+   "number_card_name": "Pending Harvests"
+  },
+  {
+   "label": "Ready to Aggregate",
+   "number_card_name": "Ready to Aggregate"
+  },
+  {
+   "label": "Aggregated This Month",
+   "number_card_name": "Aggregated This Month"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "All Member Harvests",
+   "link_to": "Harvest Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "New",
+   "label": "Aggregate into Lot",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Aggregation History",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "My Members",
+   "link_to": "User",
+   "type": "DocType"
+  }
+ ],
+ "title": "Member Harvests"
+}

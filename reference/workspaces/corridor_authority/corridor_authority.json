@@ -1,0 +1,132 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"42b3788d2c\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Corridor Authority</span>\", \"col\": 12}}, {\"id\": \"f796b7f7c4\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"e9cd06d962\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Anomalies Flagged\", \"col\": 4}}, {\"id\": \"34c0d2cada\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"bf3682c859\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Lots\", \"col\": 3}}, {\"id\": \"ca9e56d07b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Corridors\", \"col\": 3}}, {\"id\": \"d747185941\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"ANHUR Results\", \"col\": 3}}, {\"id\": \"3ddac8a15a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Farm Registry\", \"col\": 3}}, {\"id\": \"20ccef9e54\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"82032d8bdf\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 08:22:29.788654",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-landmark",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Corridor Authority",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authority",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lots",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Corridors",
+   "link_count": 0,
+   "link_to": "Corridor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Results",
+   "link_count": 0,
+   "link_to": "ANHUR Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm Plots",
+   "link_count": 0,
+   "link_to": "Farm Plot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Events",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:47.099492",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Corridor Authority",
+ "number_cards": [
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  },
+  {
+   "label": "Anomalies",
+   "number_card_name": "Anomalies Flagged"
+  },
+  {
+   "label": "Farm Plots",
+   "number_card_name": "Farm Plots"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Authority"
+  }
+ ],
+ "sequence_id": 22.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "All Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Corridors",
+   "link_to": "Corridor",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "AI Results",
+   "link_to": "ANHUR Result",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Farm Registry",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  }
+ ],
+ "title": "Corridor Authority"
+}

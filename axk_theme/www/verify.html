@@ -1,0 +1,225 @@
+{%- extends "templates/web.html" -%}
+
+{%- block title -%}AXK Network — Public Verification{%- endblock -%}
+{%- block header -%}{%- endblock -%}
+
+{%- block page_content -%}
+<div class="axk-vfy-page">
+
+    <!-- Hero -->
+    <div class="axk-vfy-hero" id="vfy-hero">
+        <div class="axk-vfy-hero-inner">
+            <img src="/assets/axk_network/images/axk-logo-full.png" alt="AXK Network" class="axk-vfy-hero-logo">
+            <div class="axk-vfy-hero-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                Public Verification
+            </div>
+            <h1 class="axk-vfy-title">Verify any commodity lot</h1>
+            <p class="axk-vfy-subtitle">Every claim on AXK Network is anchored on-chain.<br>Enter a lot reference to verify.</p>
+            <div class="axk-vfy-search-wrap" id="vfy-search-hero">
+                <div class="axk-vfy-search-box">
+                    <svg class="axk-vfy-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <input type="text" class="axk-vfy-search" placeholder="LOT-RW-03-26-0064" id="search-lot" autocomplete="off">
+                    <button class="axk-vfy-search-btn" onclick="searchLot()">Verify</button>
+                </div>
+            </div>
+            <div class="axk-vfy-trust-row">
+                <span class="axk-vfy-trust-tag">On-chain</span>
+                <span class="axk-vfy-trust-tag">Real-time</span>
+                <span class="axk-vfy-trust-tag">Public</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating search bar (appears after results) -->
+    <div class="axk-vfy-float-bar" id="vfy-float-bar">
+        <img src="/assets/axk_network/images/axk-logo-full.png" alt="AXK" class="axk-vfy-float-logo">
+        <div class="axk-vfy-float-search">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" class="axk-vfy-float-input" placeholder="Search another lot…" id="search-lot-float" autocomplete="off">
+            <button class="axk-vfy-float-btn" onclick="searchLotFloat()">Verify</button>
+        </div>
+    </div>
+
+    <!-- Results -->
+    <div id="verify-content"></div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var params = new URLSearchParams(window.location.search);
+    var lotRef = params.get('lot');
+    if (!lotRef) return;
+
+    document.getElementById('verify-content').innerHTML =
+        '<div class="axk-vfy-loading"><div class="axk-vfy-loading-bar"></div><p>Verifying lot\u2026</p></div>';
+
+    document.getElementById('search-lot').value = lotRef;
+
+    fetch('/api/method/axk_network.api.finance.get_public_lot_verification?lot_ref=' +
+          encodeURIComponent(lotRef))
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (data.message) renderLot(data.message);
+            else showNotFound(lotRef);
+        })
+        .catch(function() { showNotFound(lotRef); });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var el = document.getElementById('search-lot');
+    if (el) el.addEventListener('keydown', function(e) { if (e.key === 'Enter') searchLot(); });
+    var el2 = document.getElementById('search-lot-float');
+    if (el2) el2.addEventListener('keydown', function(e) { if (e.key === 'Enter') searchLotFloat(); });
+});
+
+function activateFloatBar() {
+    var hero = document.getElementById('vfy-hero');
+    var bar = document.getElementById('vfy-float-bar');
+    hero.classList.add('axk-vfy-hero--compact');
+    bar.classList.add('axk-vfy-float-bar--visible');
+}
+
+function renderLot(lot) {
+    activateFloatBar();
+    var scoreText = '';
+    if (lot.anhur_score >= 0.90) scoreText = 'High confidence';
+    else if (lot.anhur_score >= 0.80) scoreText = 'Moderate confidence';
+    else if (lot.anhur_score >= 0.70) scoreText = 'Review recommended';
+    else scoreText = 'Flagged for review';
+
+    var isVerified = (lot.status === 'Verified' || lot.status === 'Notarized' || lot.status === 'Settled');
+    var statusColor = isVerified ? '#2B705F' : lot.status === 'Flagged' ? '#C53030' : '#C8963E';
+    var h = '<div class="axk-vfy-result">';
+
+    // Document header with logo
+    h += '<div class="axk-vfy-result-head">';
+    h += '<img src="/assets/axk_network/images/axk-logo-full.png" alt="AXK" class="axk-vfy-result-logo">';
+    h += '<span class="axk-vfy-result-label">Verification Report</span>';
+    h += '</div>';
+
+    h += '<div class="axk-vfy-doc-head">';
+    h += '<div class="axk-vfy-doc-head-left">';
+    h += '<div class="axk-vfy-lot-ref">' + (lot.lot_reference || lot.name) + '</div>';
+    h += '<div class="axk-vfy-lot-desc">' + (lot.commodity_type || 'Commodity') + ' \u00b7 ' + (lot.quantity||0) + ' ' + (lot.unit||'kg') + ' \u00b7 Grade ' + (lot.grade||'\u2014') + '</div>';
+    h += '</div>';
+    if (isVerified) {
+        h += '<div class="axk-stamp --sm">';
+        h += '<div class="axk-stamp__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>';
+        h += '<div class="axk-stamp__label">Verified</div>';
+        h += '</div>';
+    } else {
+        h += '<div class="axk-vfy-status-pill" style="color:' + statusColor + ';background:' + statusColor + '0D;border:1px solid ' + statusColor + '20">' + lot.status + '</div>';
+    }
+    h += '</div>';
+
+    h += '<hr class="axk-vfy-rule">';
+
+    // 01 — Lot Details
+    h += '<div class="axk-vfy-sec"><div class="axk-vfy-sec-num">01</div><div class="axk-vfy-sec-body">';
+    h += '<div class="axk-vfy-sec-label">Lot Details</div>';
+    h += '<div class="axk-vfy-grid">';
+    h += cell('Commodity', lot.commodity_type);
+    h += cell('Grade', lot.grade);
+    h += cell('Quantity', (lot.quantity||0)+' '+(lot.unit||'kg'));
+    h += cell('Processing', lot.processing_method);
+    h += cell('Cooperative', lot.cooperative_name);
+    h += cell('Exporter', lot.exporter_name);
+    h += '</div></div></div>';
+
+    // 02 — Trust Signals
+    if (lot.anhur_score || lot.xrpl_tx_hash) {
+        h += '<hr class="axk-vfy-rule">';
+        h += '<div class="axk-vfy-sec"><div class="axk-vfy-sec-num">02</div><div class="axk-vfy-sec-body">';
+        h += '<div class="axk-vfy-sec-label">Trust Signals</div>';
+        h += '<div class="axk-vfy-trust-grid">';
+
+        if (lot.anhur_score) {
+            var col = lot.anhur_score >= 0.80 ? '#2B705F' : lot.anhur_score >= 0.70 ? '#C8963E' : '#C53030';
+            var pct = Math.min(lot.anhur_score, 1) * 327;
+            h += '<div class="axk-vfy-signal-card">';
+            h += '<div class="axk-vfy-signal-head"><span class="axk-vfy-signal-tag">AXK AI</span></div>';
+            h += '<div class="axk-vfy-ai-row">';
+            h += '<div class="axk-vfy-ai-gauge"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="5"/>';
+            h += '<circle cx="60" cy="60" r="52" fill="none" stroke="'+col+'" stroke-width="5" stroke-linecap="round" stroke-dasharray="'+pct+' 327" transform="rotate(-90 60 60)"/></svg>';
+            h += '<span class="axk-vfy-ai-val" style="color:'+col+'">'+lot.anhur_score+'</span></div>';
+            h += '<div><div class="axk-vfy-ai-grade" style="color:'+col+'">'+scoreText+'</div>';
+            h += '<div class="axk-vfy-ai-note">Document verification confidence</div></div>';
+            h += '</div></div>';
+        }
+
+        if (lot.xrpl_tx_hash) {
+            var url = lot.xrpl_explorer_url || ('https://xahau-testnet.xrplwin.com/tx/' + lot.xrpl_tx_hash);
+            h += '<div class="axk-vfy-signal-card axk-vfy-chain-block">';
+            h += '<div class="axk-vfy-signal-head"><span class="axk-vfy-signal-tag">XRPL Proof</span></div>';
+            h += '<code class="axk-vfy-chain-hash">' + lot.xrpl_tx_hash + '</code>';
+            h += '<a href="'+url+'" target="_blank" rel="noopener" class="axk-vfy-explorer-link">';
+            h += 'View on Explorer <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>';
+            h += '</div>';
+        }
+
+        h += '</div></div></div>';
+    }
+
+    // 03 — Verification Chain
+    if (lot.events && lot.events.length) {
+        h += '<hr class="axk-vfy-rule">';
+        h += '<div class="axk-vfy-sec"><div class="axk-vfy-sec-num">' + (lot.anhur_score || lot.xrpl_tx_hash ? '03' : '02') + '</div><div class="axk-vfy-sec-body">';
+        h += '<div class="axk-vfy-sec-label">Verification Chain</div>';
+        h += '<div class="axk-vfy-chain-timeline">';
+        lot.events.forEach(function(evt, i) {
+            var done = (evt.status.indexOf('Notarized')>=0||evt.status.indexOf('Scored')>=0||evt.status.indexOf('Confirmed')>=0);
+            h += '<div class="axk-vfy-tl-step'+(done?' done':'')+'">';
+            h += '<div class="axk-vfy-tl-marker"><div class="axk-vfy-tl-dot"></div>';
+            if (i < lot.events.length-1) h += '<div class="axk-vfy-tl-line"></div>';
+            h += '</div>';
+            h += '<div class="axk-vfy-tl-body">';
+            h += '<div class="axk-vfy-tl-type">' + evt.event_type + '</div>';
+            h += '<div class="axk-vfy-tl-status">' + evt.status + '</div>';
+            h += '<div class="axk-vfy-tl-meta">';
+            if (evt.actor_name) h += evt.actor_name;
+            if (evt.counterparty_name) h += ' \u2194 ' + evt.counterparty_name;
+            if (evt.confirmed_at) h += ' \u00b7 ' + new Date(evt.confirmed_at).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'});
+            h += '</div></div></div>';
+        });
+        h += '</div></div></div>';
+    }
+
+    // Footer with stamp seal
+    h += '<div class="axk-vfy-doc-foot">';
+    h += '<div class="axk-stamp --lg">';
+    h += '<div class="axk-stamp__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>';
+    h += '<div class="axk-stamp__label">Verified</div>';
+    h += '<div class="axk-stamp__sub">AXK Network</div>';
+    h += '</div>';
+    h += '<div class="axk-vfy-doc-foot-text">AXK Network \u2014 Trust, Verified.</div>';
+    h += '</div>';
+    h += '</div>';
+    document.getElementById('verify-content').innerHTML = h;
+}
+
+function cell(label, value) {
+    return '<div class="axk-vfy-cell"><div class="axk-vfy-cell-label">' + label + '</div><div class="axk-vfy-cell-value">' + (value||'\u2014') + '</div></div>';
+}
+
+function showNotFound(ref) {
+    var h = '<div class="axk-vfy-result axk-vfy-nf">';
+    h += '<div class="axk-vfy-nf-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>';
+    h += '<h3>Not Found</h3>';
+    h += '<p>No record for <strong>'+(ref||'this reference')+'</strong></p>';
+    h += '</div>';
+    document.getElementById('verify-content').innerHTML = h;
+}
+
+function searchLot() {
+    var ref = document.getElementById('search-lot').value.trim();
+    if (ref) window.location.href = '/verify?lot=' + encodeURIComponent(ref);
+}
+
+function searchLotFloat() {
+    var ref = document.getElementById('search-lot-float').value.trim();
+    if (ref) window.location.href = '/verify?lot=' + encodeURIComponent(ref);
+}
+</script>
+{%- endblock -%}

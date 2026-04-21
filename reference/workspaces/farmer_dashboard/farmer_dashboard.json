@@ -1,0 +1,126 @@
+{
+ "charts": [
+  {
+   "chart_name": "Harvest Records by Month",
+   "label": "Harvests by Month"
+  }
+ ],
+ "content": "[{\"id\": \"6a95ef7733\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Farmer Dashboard</span>\", \"col\": 12}}, {\"id\": \"223a628d1d\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"cf85d878e9\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"dcd08f0a99\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Farm Plots\", \"col\": 3}}, {\"id\": \"16dd3af549\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Lots\", \"col\": 3}}, {\"id\": \"8470e917ad\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Lot\", \"col\": 3}}, {\"id\": \"bbc88e4f0b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Verification Status\", \"col\": 3}}, {\"id\": \"2b1fb74ffe\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"6726292faa\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 18:24:33.964584",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-sprout",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Farmer Dashboard",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXK Network",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm Plot",
+   "link_count": 0,
+   "link_to": "Farm Plot",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Verification Event",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.620950",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Farmer Dashboard",
+ "number_cards": [
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Farmer"
+  },
+  {
+   "role": "Farmer"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 19.0,
+ "shortcuts": [
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "My Farm Plots",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  },
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "My Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "New",
+   "label": "New Lot",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Verification Status",
+   "link_to": "Verification Event",
+   "type": "DocType"
+  }
+ ],
+ "title": "Farmer Dashboard"
+}

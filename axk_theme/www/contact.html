@@ -1,0 +1,221 @@
+{% extends "templates/web.html" %}
+
+{% set title = "Contact Us — AXK Network" %}
+{% set full_width = True %}
+
+{% block head_include %}
+<meta name="description" content="Get in touch with the AXK Network support team. We're here to help with any questions about commodity trade, compliance, or platform usage.">
+{% endblock %}
+
+{% block header %}{% endblock %}
+
+{% block page_content %}
+<div class="axk-contact-page">
+
+	<!-- ═══ HERO SECTION ═══ -->
+	<section class="axk-ct-hero">
+		<div class="axk-ct-hero-bg"></div>
+		<div class="axk-ct-hero-inner">
+			<span class="axk-ct-badge">
+				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+				{{ _("Support & Contact") }}
+			</span>
+			<h1>{{ _("How can we help?") }}</h1>
+			<p>{{ _("Whether you have a question about trading, compliance, or your account — our team is ready to assist.") }}</p>
+		</div>
+	</section>
+
+	<!-- ═══ CHANNELS SECTION ═══ -->
+	<section class="axk-ct-channels">
+		<div class="axk-ct-container">
+			<div class="axk-ct-channels-grid">
+				<!-- Email -->
+				<a href="mailto:support@axk.org" class="axk-ct-channel-card">
+					<div class="axk-ct-channel-icon axk-ct-icon-teal">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+					</div>
+					<h3>{{ _("Email Us") }}</h3>
+					<p>{{ _("Get a response within 24 hours. Best for detailed questions and documentation requests.") }}</p>
+					<span class="axk-ct-channel-link">support@axk.org <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+				</a>
+
+				<!-- Phone -->
+				<a href="tel:+250788626270" class="axk-ct-channel-card">
+					<div class="axk-ct-channel-icon axk-ct-icon-amber">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+					</div>
+					<h3>{{ _("Call Us") }}</h3>
+					<p>{{ _("Speak with someone directly. Available Monday to Friday, 8 AM – 6 PM (CAT).") }}</p>
+					<span class="axk-ct-channel-link">+250 788 626 270 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+				</a>
+
+				<!-- Knowledge Hub -->
+				<a href="/knowledge" class="axk-ct-channel-card">
+					<div class="axk-ct-channel-icon axk-ct-icon-blue">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+					</div>
+					<h3>{{ _("Knowledge Hub") }}</h3>
+					<p>{{ _("Browse guides, documentation, and tutorials. Find answers instantly.") }}</p>
+					<span class="axk-ct-channel-link">{{ _("Browse articles") }} <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+				</a>
+
+				<!-- FAQ -->
+				<a href="/faq" class="axk-ct-channel-card">
+					<div class="axk-ct-channel-icon axk-ct-icon-violet">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+					</div>
+					<h3>{{ _("FAQ") }}</h3>
+					<p>{{ _("Quick answers to the most common questions about orders, shipping, and compliance.") }}</p>
+					<span class="axk-ct-channel-link">{{ _("View FAQ") }} <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- ═══ FORM SECTION ═══ -->
+	<section class="axk-ct-form-section">
+		<div class="axk-ct-container">
+			<div class="axk-ct-form-grid">
+				<!-- Left: Context -->
+				<div class="axk-ct-form-context">
+					<h2>{{ _("Send us a message") }}</h2>
+					<p>{{ _("Fill out the form and our team will get back to you within 24 hours. For urgent issues, please call us directly.") }}</p>
+
+					<div class="axk-ct-response-info">
+						<div class="axk-ct-response-item">
+							<div class="axk-ct-response-dot axk-ct-dot-green"></div>
+							<div>
+								<strong>{{ _("Average response time") }}</strong>
+								<span>{{ _("Under 4 hours (business days)") }}</span>
+							</div>
+						</div>
+						<div class="axk-ct-response-item">
+							<div class="axk-ct-response-dot axk-ct-dot-amber"></div>
+							<div>
+								<strong>{{ _("Business hours") }}</strong>
+								<span>{{ _("Mon – Fri, 8 AM – 6 PM (CAT)") }}</span>
+							</div>
+						</div>
+						<div class="axk-ct-response-item">
+							<div class="axk-ct-response-dot axk-ct-dot-blue"></div>
+							<div>
+								<strong>{{ _("Languages") }}</strong>
+								<span>{{ _("English, French, Kinyarwanda") }}</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="axk-ct-office">
+						<h4>{{ _("Office") }}</h4>
+						<p>Afrikabal Ltd.<br>Kigali, Rwanda</p>
+					</div>
+				</div>
+
+				<!-- Right: The form -->
+				<div class="axk-ct-form-card" id="contact-form-card">
+					<form class="axk-ct-form" id="axk-contact-form">
+						<div class="axk-ct-form-row">
+							<div class="axk-ct-field">
+								<label for="ct-name">{{ _("Full name") }}</label>
+								<input type="text" id="ct-name" name="name" placeholder="{{ _('Your name') }}" required>
+							</div>
+							<div class="axk-ct-field">
+								<label for="ct-email">{{ _("Email") }}</label>
+								<input type="email" id="ct-email" name="email" placeholder="{{ _('you@company.com') }}" required>
+							</div>
+						</div>
+						<div class="axk-ct-field">
+							<label for="ct-subject">{{ _("Subject") }}</label>
+							<select id="ct-subject" name="subject">
+							{% for option in query_options %}
+								<option value="{{ option }}">{{ _(option) }}</option>
+							{% endfor %}
+							</select>
+						</div>
+						<div class="axk-ct-field">
+							<label for="ct-message">{{ _("Message") }}</label>
+							<textarea id="ct-message" name="message" rows="5" placeholder="{{ _('Tell us how we can help...') }}" required></textarea>
+						</div>
+						<button type="submit" class="axk-ct-submit" id="btn-ct-send">
+							<span class="axk-ct-submit-text">{{ _("Send message") }}</span>
+							<svg class="axk-ct-submit-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+						</button>
+					</form>
+
+					<!-- Success state -->
+					<div class="axk-ct-success" id="contact-success" style="display:none;">
+						<div class="axk-ct-success-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+						</div>
+						<h3>{{ _("Message sent!") }}</h3>
+						<p>{{ _("Thank you for reaching out. Our team will get back to you within 24 hours.") }}</p>
+						<button class="axk-ct-submit" onclick="resetContactForm()" style="margin-top:16px;">
+							<span class="axk-ct-submit-text">{{ _("Send another message") }}</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ═══ FOOTER CTA ═══ -->
+	<section class="axk-ct-footer-cta">
+		<div class="axk-ct-container" style="text-align:center;">
+			<p style="color:var(--axk-pg-muted);font-size:12px;">
+				{{ _("By contacting us you agree to our") }}
+				<a href="/terms" style="color:var(--axk-pg-subtle);text-decoration:underline;">{{ _("Terms") }}</a>
+				{{ _("and") }}
+				<a href="/privacy" style="color:var(--axk-pg-subtle);text-decoration:underline;">{{ _("Privacy Policy") }}</a>
+			</p>
+		</div>
+	</section>
+</div>
+
+<script>
+frappe.ready(function() {
+	$('#axk-contact-form').on('submit', function(e) {
+		e.preventDefault();
+		var email = $('#ct-email').val();
+		var message = $('#ct-message').val();
+		var subject = $('#ct-subject').val();
+		var name = $('#ct-name').val();
+
+		if (!(email && message && name)) {
+			frappe.msgprint("{{ _('Please fill in all fields.') }}");
+			return;
+		}
+
+		if (!frappe.utils.validate_type(email, 'email')) {
+			frappe.msgprint("{{ _('Please enter a valid email address.') }}");
+			return;
+		}
+
+		var btn = $('#btn-ct-send');
+		btn.prop('disabled', true);
+		btn.find('.axk-ct-submit-text').text("{{ _('Sending...') }}");
+
+		frappe.call({
+			type: 'POST',
+			method: 'frappe.www.contact.send_message',
+			args: { sender: email, message: name + '\n\n' + message, subject: subject },
+			callback: function(r) {
+				if (!r.exc) {
+					$('#axk-contact-form').hide();
+					$('#contact-success').show();
+				}
+			},
+			always: function() {
+				btn.prop('disabled', false);
+				btn.find('.axk-ct-submit-text').text("{{ _('Send message') }}");
+			}
+		});
+	});
+});
+
+function resetContactForm() {
+	$('#contact-success').hide();
+	$('#axk-contact-form')[0].reset();
+	$('#axk-contact-form').show();
+}
+</script>
+{% endblock %}

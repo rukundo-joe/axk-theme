@@ -1,0 +1,149 @@
+{
+ "charts": [
+  {
+   "chart_name": "Verification Events by Month",
+   "label": "Events by Month"
+  }
+ ],
+ "content": "[{\"id\": \"1038e1bb92\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Verification Ledger</span>\", \"col\": 12}}, {\"id\": \"3785cbe794\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"adb2322d7b\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Escrows\", \"col\": 4}}, {\"id\": \"d32f3f7f46\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"8c94356d98\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Anomalies Flagged\", \"col\": 4}}, {\"id\": \"4f0bb5b621\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"6fea1d308a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Events\", \"col\": 3}}, {\"id\": \"d5c58a192c\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"ANHUR Results\", \"col\": 3}}, {\"id\": \"5fe0beb96a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Lots\", \"col\": 3}}, {\"id\": \"61f4b8b355\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Escrow Contracts\", \"col\": 3}}, {\"id\": \"d46c10778d\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"08213e8bf9\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 08:22:29.889556",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-scroll-text",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Verification Ledger",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "AXK Network",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Verification Event",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ANHUR Result",
+   "link_count": 0,
+   "link_to": "ANHUR Result",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Escrow Contract",
+   "link_count": 0,
+   "link_to": "Escrow Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AXK Order",
+   "link_count": 0,
+   "link_to": "AXK Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipment",
+   "link_count": 0,
+   "link_to": "Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:08.145180",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Verification Ledger",
+ "number_cards": [
+  {
+   "label": "Pending",
+   "number_card_name": "Pending Confirmations"
+  },
+  {
+   "label": "Anomalies",
+   "number_card_name": "Anomalies Flagged"
+  },
+  {
+   "label": "Verified",
+   "number_card_name": "Verified Lots"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "All Events",
+   "link_to": "Verification Event",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "ANHUR Results",
+   "link_to": "ANHUR Result",
+   "type": "DocType"
+  },
+  {
+   "color": "#0C3424",
+   "doc_view": "List",
+   "label": "All Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "Escrow Contracts",
+   "link_to": "Escrow Contract",
+   "type": "DocType"
+  }
+ ],
+ "title": "Verification Ledger"
+}

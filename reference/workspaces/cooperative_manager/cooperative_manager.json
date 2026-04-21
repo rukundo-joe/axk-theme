@@ -1,0 +1,121 @@
+{
+ "charts": [
+  {
+   "chart_name": "Lots by Month",
+   "label": "Lots by Month"
+  }
+ ],
+ "content": "[{\"id\": \"b57a444a10\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Cooperative Manager</span>\", \"col\": 12}}, {\"id\": \"fb8438e12a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"03632def53\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"cb4cc6a2d4\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"dd067c2776\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Lot\", \"col\": 3}}, {\"id\": \"5d39a96cc0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Lots\", \"col\": 3}}, {\"id\": \"e462f03fc7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Verification Events\", \"col\": 3}}, {\"id\": \"86cef3048d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Farm Plots\", \"col\": 3}}, {\"id\": \"10fd20da4c\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"6ffe802400\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 08:22:29.200244",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-building",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Cooperative Manager",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "AXK Network",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lot",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm Plot",
+   "link_count": 0,
+   "link_to": "Farm Plot",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Verification Event",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:21:07.692003",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Cooperative Manager",
+ "number_cards": [
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  },
+  {
+   "label": "Pending Confirmations",
+   "number_card_name": "Pending Confirmations"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 18.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "New",
+   "label": "New Lot",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "My Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Verification Events",
+   "link_to": "Verification Event",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "Farm Plots",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  }
+ ],
+ "title": "Cooperative Manager"
+}

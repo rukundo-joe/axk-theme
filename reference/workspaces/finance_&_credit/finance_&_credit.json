@@ -1,0 +1,111 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"e6710f43e2\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Finance & Credit</span>\", \"col\": 12}}, {\"id\": \"e0b7ff94c5\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Exporter Profiles\", \"col\": 4}}, {\"id\": \"b5fea25509\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Settled Orders\", \"col\": 4}}, {\"id\": \"9c71309d38\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Escrows\", \"col\": 4}}, {\"id\": \"09cee35ccb\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"db43d1b049\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Finance Profile\", \"col\": 3}}, {\"id\": \"43318d1b9c\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Share Profile with Lender\", \"col\": 3}}, {\"id\": \"b30e6febe8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Apply for Pre-finance\", \"col\": 3}}, {\"id\": \"a6b3a0edc0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Active Finance Agreements\", \"col\": 3}}, {\"id\": \"a8e278d983\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Escrow Records\", \"col\": 3}}, {\"id\": \"3de5b2453a\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"0fbc1a86bb\", \"type\": \"card\", \"data\": {\"card_name\": \"Finance & Credit\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.243901",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-credit-card",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Finance & Credit",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Finance",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Finance Profiles",
+   "link_count": 0,
+   "link_to": "Finance Eligibility Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Escrow Records",
+   "link_count": 0,
+   "link_to": "Escrow Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trade Orders",
+   "link_count": 0,
+   "link_to": "Trade Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.119696",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Finance & Credit",
+ "number_cards": [
+  {
+   "label": "Active Escrows",
+   "number_card_name": "Active Escrows"
+  },
+  {
+   "label": "Settled Orders",
+   "number_card_name": "Settled Orders"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "Finance Officer"
+  },
+  {
+   "role": "AXK Cooperative"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Bank"
+  }
+ ],
+ "sequence_id": 12.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "My Finance Profile",
+   "link_to": "Finance Eligibility Profile",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Share with Lender",
+   "link_to": "Finance Eligibility Profile",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Escrow Records",
+   "link_to": "Escrow Record",
+   "type": "DocType"
+  }
+ ],
+ "title": "Finance & Credit"
+}

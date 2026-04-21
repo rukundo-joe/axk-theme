@@ -1,0 +1,82 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"848984d216\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Insurance</span>\", \"col\": 12}}, {\"id\": \"cc88fd5c93\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Insurance\", \"col\": 4}}, {\"id\": \"a3bddf02fc\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Settled Orders\", \"col\": 4}}, {\"id\": \"80652c7bbd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Anomalies Flagged\", \"col\": 4}}, {\"id\": \"fc48a0b315\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"9c24884808\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Active Policies\", \"col\": 3}}, {\"id\": \"962f5d40ad\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Apply for New Policy\", \"col\": 3}}, {\"id\": \"2f5c5bb6e2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Browse Insurance Products\", \"col\": 3}}, {\"id\": \"fd0f48d73e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Submit a Claim\", \"col\": 3}}, {\"id\": \"191fd8bf2d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Claim Status\", \"col\": 3}}, {\"id\": \"af41d69ba4\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"75f133f438\", \"type\": \"card\", \"data\": {\"card_name\": \"Insurance\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.479303",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-shield-check",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Insurance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Insurance",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Policies",
+   "link_count": 0,
+   "link_to": "Insurance Policy",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:47.191120",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Insurance",
+ "number_cards": [
+  {
+   "label": "Active Policies",
+   "number_card_name": "Active Insurance"
+  },
+  {
+   "label": "Settled Orders",
+   "number_card_name": "Settled Orders"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Insurance Agent"
+  }
+ ],
+ "sequence_id": 14.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "My Policies",
+   "link_to": "Insurance Policy",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Apply for Policy",
+   "link_to": "Insurance Policy",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Submit a Claim",
+   "link_to": "Insurance Policy",
+   "type": "DocType"
+  }
+ ],
+ "title": "Insurance"
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "doctype": "Number Card",
+  "name": "AXK Home — Members",
+  "label": "Members",
+  "document_type": "User",
+  "function": "Count",
+  "filters_json": "[[\"User\",\"enabled\",\"=\",1],[\"User\",\"name\",\"not in\",[\"Guest\",\"Administrator\"]]]",
+  "is_public": 1,
+  "module": "AXK Theme",
+  "show_percentage_stats": 1,
+  "stats_time_interval": "Monthly",
+  "color": "#166350"
+ },
+ {
+  "doctype": "Number Card",
+  "name": "AXK Home — Lots",
+  "label": "Lots",
+  "document_type": "File",
+  "function": "Count",
+  "filters_json": "[]",
+  "is_public": 1,
+  "module": "AXK Theme",
+  "show_percentage_stats": 1,
+  "stats_time_interval": "Monthly",
+  "color": "#166350"
+ },
+ {
+  "doctype": "Number Card",
+  "name": "AXK Home — Escrow Value",
+  "label": "Escrow Value",
+  "document_type": "Role",
+  "function": "Count",
+  "filters_json": "[]",
+  "is_public": 1,
+  "module": "AXK Theme",
+  "show_percentage_stats": 0,
+  "color": "#166350"
+ },
+ {
+  "doctype": "Number Card",
+  "name": "AXK Home — Verifications",
+  "label": "Verifications",
+  "document_type": "Email Template",
+  "function": "Count",
+  "filters_json": "[]",
+  "is_public": 1,
+  "module": "AXK Theme",
+  "show_percentage_stats": 1,
+  "stats_time_interval": "Monthly",
+  "color": "#166350"
+ },
+ {
+  "doctype": "Number Card",
+  "name": "AXK Home — Orders",
+  "label": "Orders",
+  "document_type": "Notification",
+  "function": "Count",
+  "filters_json": "[]",
+  "is_public": 1,
+  "module": "AXK Theme",
+  "show_percentage_stats": 1,
+  "stats_time_interval": "Monthly",
+  "color": "#166350"
+ }
+]

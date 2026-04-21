@@ -1,0 +1,132 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"01c2bc6d20\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Trade Orders & Escrow</span>\", \"col\": 12}}, {\"id\": \"dac6144b1a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Escrows\", \"col\": 4}}, {\"id\": \"ed341fafdf\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Settled Orders\", \"col\": 4}}, {\"id\": \"4468242ee8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"ac4da5ef55\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"4c500b79c8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Trade Orders\", \"col\": 3}}, {\"id\": \"cb10ae0283\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Pending Confirmation\", \"col\": 3}}, {\"id\": \"d60677f0a0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Active Escrows\", \"col\": 3}}, {\"id\": \"839860576b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Release Escrow\", \"col\": 3}}, {\"id\": \"39fd273475\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Payment History\", \"col\": 3}}, {\"id\": \"95a8e5867d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Disputed Orders\", \"col\": 3}}, {\"id\": \"676cb5a04c\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"24a939b9ac\", \"type\": \"card\", \"data\": {\"card_name\": \"Orders & Payments\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.989526",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-file-text",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Trade Orders & Escrow",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "grid",
+   "is_query_report": 0,
+   "label": "Orders & Payments",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trade Order",
+   "link_count": 0,
+   "link_to": "Trade Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Escrow Record",
+   "link_count": 0,
+   "link_to": "Escrow Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 01:20:06.091451",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Trade Orders & Escrow",
+ "number_cards": [
+  {
+   "label": "Active Escrows",
+   "number_card_name": "Active Escrows"
+  },
+  {
+   "label": "Settled",
+   "number_card_name": "Settled Orders"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Finance Officer"
+  },
+  {
+   "role": "AXK Buyer"
+  },
+  {
+   "role": "AXK Bank"
+  },
+  {
+   "role": "AXK Exporter"
+  },
+  {
+   "role": "Buyer"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Exporter"
+  }
+ ],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "color": "#166350",
+   "doc_view": "List",
+   "label": "All Trade Orders",
+   "link_to": "Trade Order",
+   "type": "DocType"
+  },
+  {
+   "color": "#347464",
+   "doc_view": "List",
+   "label": "Pending Confirmation",
+   "link_to": "Trade Order",
+   "type": "DocType"
+  },
+  {
+   "color": "#26B0BA",
+   "doc_view": "List",
+   "label": "Active Escrows",
+   "link_to": "Escrow Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#3C7C6C",
+   "doc_view": "List",
+   "label": "Release Escrow",
+   "link_to": "Escrow Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#0C3424",
+   "doc_view": "List",
+   "label": "Payment History",
+   "link_to": "Escrow Record",
+   "type": "DocType"
+  },
+  {
+   "color": "#1E7060",
+   "doc_view": "List",
+   "label": "Disputed Orders",
+   "link_to": "Trade Order",
+   "type": "DocType"
+  }
+ ],
+ "title": "Trade Orders & Escrow"
+}

@@ -1,0 +1,128 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"c975827227\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Inspector Dashboard</span>\", \"col\": 12}}, {\"id\": \"baafc4c4e7\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"257b29a0f7\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Anomalies Flagged\", \"col\": 4}}, {\"id\": \"968c271b47\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"a5c9bf6202\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Pending Inspections\", \"col\": 3}}, {\"id\": \"eb25fab21d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Inspections\", \"col\": 3}}, {\"id\": \"ee2a977fd1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Lots\", \"col\": 3}}, {\"id\": \"aae3587b50\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Farm Registry\", \"col\": 3}}, {\"id\": \"3f89df31c9\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"24cdf41ed1\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 18:24:41.435095",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-clipboard-check",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Inspector Dashboard",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspector",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Events",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspections",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lots",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm Plots",
+   "link_count": 0,
+   "link_to": "Farm Plot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Results",
+   "link_count": 0,
+   "link_to": "ANHUR Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.332882",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Inspector Dashboard",
+ "number_cards": [
+  {
+   "label": "Pending",
+   "number_card_name": "Pending Confirmations"
+  },
+  {
+   "label": "Anomalies",
+   "number_card_name": "Anomalies Flagged"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Inspector"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 21.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Pending Inspections",
+   "link_to": "Verification Event",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Quality Inspections",
+   "link_to": "Quality Inspection",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "All Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Farm Registry",
+   "link_to": "Farm Plot",
+   "type": "DocType"
+  }
+ ],
+ "title": "Inspector Dashboard"
+}

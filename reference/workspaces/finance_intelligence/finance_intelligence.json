@@ -1,0 +1,115 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"e7fb17e227\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Finance Intelligence</span>\", \"col\": 12}}, {\"id\": \"f0d0ee57c0\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Exporter Profiles\", \"col\": 4}}, {\"id\": \"491bd08e98\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"7dc9202e51\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"b81c61effc\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Exporter Profiles\", \"col\": 3}}, {\"id\": \"c2b39ada36\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"EUDR Packages\", \"col\": 3}}, {\"id\": \"c868c6ab25\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Verified Lots\", \"col\": 3}}, {\"id\": \"196311d9f5\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"d1e887b9e5\", \"type\": \"card\", \"data\": {\"card_name\": \"AXK Network\", \"col\": 4}}]",
+ "creation": "2026-03-28 08:22:29.685485",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-chart-line",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Finance Intelligence",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Intelligence",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Profiles",
+   "link_count": 0,
+   "link_to": "Finance Eligibility Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EUDR",
+   "link_count": 0,
+   "link_to": "EUDR Compliance Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lots",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Verifications",
+   "link_count": 0,
+   "link_to": "Verification Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.187362",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Finance Intelligence",
+ "number_cards": [
+  {
+   "label": "Finance Profiles",
+   "number_card_name": "Exporter Profiles"
+  },
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "AXK Bank"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Finance Officer"
+  }
+ ],
+ "sequence_id": 13.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Exporter Profiles",
+   "link_to": "Finance Eligibility Profile",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Verified Lots",
+   "link_to": "Lot",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "EUDR Packages",
+   "link_to": "EUDR Compliance Package",
+   "type": "DocType"
+  }
+ ],
+ "title": "Finance Intelligence"
+}

@@ -1,0 +1,115 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"f0309fe91f\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Pre-Finance Pipeline</span>\", \"col\": 12}}, {\"id\": \"fa915fea47\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Exporter Profiles\", \"col\": 4}}, {\"id\": \"07c9f4f082\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pre-Orders Active\", \"col\": 4}}, {\"id\": \"ced28ab8b2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Escrows\", \"col\": 4}}, {\"id\": \"dd17b9aab0\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"39d5ac4a7c\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Verified Forecasts Ready for Finance\", \"col\": 3}}, {\"id\": \"4724075af9\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Submitted Forecasts\", \"col\": 3}}, {\"id\": \"8e72d4cb6b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Issue Pre-Finance\", \"col\": 3}}, {\"id\": \"a61550b97e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Active Finance Agreements\", \"col\": 3}}, {\"id\": \"63818d176d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Yield Variance Reports\", \"col\": 3}}, {\"id\": \"9595b81179\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"High-Risk Forecasts\", \"col\": 3}}, {\"id\": \"92c9bdb49c\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"0203d4b5f6\", \"type\": \"card\", \"data\": {\"card_name\": \"Pre-Finance\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.111284",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-trending-up",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Pre-Finance Pipeline",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Finance",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Forecasts",
+   "link_count": 0,
+   "link_to": "Pre-Harvest Forecast",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Finance Profiles",
+   "link_count": 0,
+   "link_to": "Finance Eligibility Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Orders",
+   "link_count": 0,
+   "link_to": "Pre-Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:47.352956",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Pre-Finance Pipeline",
+ "number_cards": [
+  {
+   "label": "Finance Profiles",
+   "number_card_name": "Exporter Profiles"
+  },
+  {
+   "label": "Pre-Orders",
+   "number_card_name": "Pre-Orders Active"
+  },
+  {
+   "label": "Active Escrows",
+   "number_card_name": "Active Escrows"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Finance Officer"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Bank"
+  }
+ ],
+ "sequence_id": 11.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Verified Forecasts",
+   "link_to": "Pre-Harvest Forecast",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "All Forecasts",
+   "link_to": "Pre-Harvest Forecast",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Finance Profiles",
+   "link_to": "Finance Eligibility Profile",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "High-Risk Forecasts",
+   "link_to": "Pre-Harvest Forecast",
+   "type": "DocType"
+  }
+ ],
+ "title": "Pre-Finance Pipeline"
+}

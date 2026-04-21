@@ -1,0 +1,121 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"6324d52c45\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">My Farm Season</span>\", \"col\": 12}}, {\"id\": \"b8ee47a69d\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Season Plans\", \"col\": 4}}, {\"id\": \"3d2be3bb6e\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Forecasted Yield This Season kg\", \"col\": 4}}, {\"id\": \"f500b974df\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pre-Finance Available\", \"col\": 4}}, {\"id\": \"3b2e1cbcd4\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"0b2a0d8ebf\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Start a New Season\", \"col\": 3}}, {\"id\": \"42b4f0024e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Season Plans\", \"col\": 3}}, {\"id\": \"c012169ff4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Record Field Observation\", \"col\": 3}}, {\"id\": \"d690255db8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Submit Pre-Harvest Forecast\", \"col\": 3}}, {\"id\": \"84b556922d\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"d7d7274ebc\", \"type\": \"card\", \"data\": {\"card_name\": \"Season Management\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:51.363378",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-calendar",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "My Farm Season",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Season Management",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Season Plans",
+   "link_count": 0,
+   "link_to": "Season Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Growth Monitoring",
+   "link_count": 0,
+   "link_to": "Growth Monitoring Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Forecasts",
+   "link_count": 0,
+   "link_to": "Pre-Harvest Forecast",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.717893",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "My Farm Season",
+ "number_cards": [
+  {
+   "label": "Active Seasons",
+   "number_card_name": "Active Season Plans"
+  },
+  {
+   "label": "Forecasted Yield (kg)",
+   "number_card_name": "Forecasted Yield This Season kg"
+  },
+  {
+   "label": "Pre-Finance",
+   "number_card_name": "Pre-Finance Available"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Farmer"
+  },
+  {
+   "role": "Farmer"
+  },
+  {
+   "role": "Cooperative Admin"
+  },
+  {
+   "role": "AXK Cooperative"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Start New Season",
+   "link_to": "Season Plan",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "My Season Plans",
+   "link_to": "Season Plan",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Field Observations",
+   "link_to": "Growth Monitoring Record",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Submit Forecast",
+   "link_to": "Pre-Harvest Forecast",
+   "type": "DocType"
+  }
+ ],
+ "title": "My Farm Season"
+}

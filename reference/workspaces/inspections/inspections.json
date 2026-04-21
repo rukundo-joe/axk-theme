@@ -1,0 +1,102 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"94c4dae156\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Inspections</span>\", \"col\": 12}}, {\"id\": \"11562f5a7f\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Confirmations\", \"col\": 4}}, {\"id\": \"51e890b0e7\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Verified Lots\", \"col\": 4}}, {\"id\": \"9cdb717094\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Anomalies Flagged\", \"col\": 4}}, {\"id\": \"a2ddfe47c2\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"2385a6efa4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Lots Pending Inspection\", \"col\": 3}}, {\"id\": \"00f2e4288e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Forecasts Awaiting Verification\", \"col\": 3}}, {\"id\": \"a27856676f\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Inspection Queue\", \"col\": 3}}, {\"id\": \"c0a5742c5e\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Issue Quality Certificate\", \"col\": 3}}, {\"id\": \"374118021f\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"My Issued Certificates\", \"col\": 3}}, {\"id\": \"ec85550077\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"5a02307bc3\", \"type\": \"card\", \"data\": {\"card_name\": \"Inspections\", \"col\": 4}}]",
+ "creation": "2026-04-01 01:14:52.579658",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "lucide-search-check",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Inspections",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspections",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspections",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Forecasts",
+   "link_count": 0,
+   "link_to": "Pre-Harvest Forecast",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lots",
+   "link_count": 0,
+   "link_to": "Lot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-02 00:56:46.260835",
+ "modified_by": "Administrator",
+ "module": "AXK Network",
+ "name": "Inspections",
+ "number_cards": [
+  {
+   "label": "Verified Lots",
+   "number_card_name": "Verified Lots"
+  },
+  {
+   "label": "Anomalies",
+   "number_card_name": "Anomalies Flagged"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "AXK Inspector"
+  }
+ ],
+ "sequence_id": 7.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Lots Pending Inspection",
+   "link_to": "Quality Inspection",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "All Inspections",
+   "link_to": "Quality Inspection",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Forecasts to Verify",
+   "link_to": "Pre-Harvest Forecast",
+   "type": "DocType"
+  }
+ ],
+ "title": "Inspections"
+}

@@ -1,0 +1,16 @@
+[
+ {
+  "doctype": "Website Theme",
+  "name": "AXK",
+  "theme": "AXK",
+  "module": "AXK Theme",
+  "custom": 1,
+  "google_font": "Inter",
+  "font_size": "16px",
+  "button_rounded_corners": 1,
+  "button_gradient": 0,
+  "button_shadow": 0,
+  "published": 1,
+  "theme_scss": "/* AXK Theme portal palette lives in axk_brand.css (public CSS bundle). This Website Theme record's sole job is to mark the AXK theme active for Frappe's portal theme-picker. All colors, radii, and typography come from the CSS variable layer. Override axk_brand.css :root tokens in your own site stylesheet to retint. */\n"
+ }
+]
